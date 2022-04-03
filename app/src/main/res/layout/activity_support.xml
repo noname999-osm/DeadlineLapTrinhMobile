@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SupportActivity"
+    android:background="#ef972c">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/btnhotroZalo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textviewsupport"
+            android:backgroundTint="#0690F5"
+            android:text="Zalo"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnhotroFB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnhotroZalo"
+            android:backgroundTint="#0762A4"
+            android:text="Facebook"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnhotroGmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnhotroFB"
+            android:backgroundTint="#EA0707"
+            android:text="Gmail"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textviewsupport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liên hệ để hỗ trợ"
+            android:textSize="25dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

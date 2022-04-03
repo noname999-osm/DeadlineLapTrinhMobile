@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GiaodienchinhActivity"
+    android:orientation="vertical"
+    android:background="#ef972c">
+
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp">
+
+        <ImageView
+            android:id="@+id/a1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/iconcoin">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/a2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@+id/a1"
+            android:background="@drawable/iconsearch"></ImageView>
+
+
+        <ImageView
+            android:id="@+id/a3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="60dp"
+            android:layout_toLeftOf="@+id/a1"
+            android:background="@drawable/iconsupport"></ImageView>
+
+        <Button
+            android:id="@+id/textviewa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a1"
+            android:layout_centerHorizontal="true"
+            android:text="Bảo hiểm"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/textviewa2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@+id/textviewa1"
+            android:text="Tra cứu"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/textviewa3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+
+            android:layout_marginRight="40dp"
+            android:layout_toLeftOf="@+id/textviewa1"
+            android:text="Hỗ trợ"
+
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
